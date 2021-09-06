@@ -1,13 +1,15 @@
----
-    layout: homelayout
-    title: Disneyland Timeline
-    subtitle: A time guide through Disneyland Resort
----
-
-<div class="timeline-container" id="timeline-1">
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Disneyland Timeline</title>
+    <link rel="stylesheet" href="main.css">
+  </head>
+  <body>
+      <div class="timeline-container" id="timeline-1">
     <div class="timeline-header">
-        <h2 class="timeline-header__title">{{ page.title }}</h2>
-        <h3 class="timeline-header__subtitle">{{ page.subtitle }}</h3>
+        <h2 class="timeline-header__title">Disneyland Timeline</h2>
+        <h3 class="timeline-header__subtitle">A visual guide through Disneyland Resort</h3>
     </div>
     <div class="timeline">
         <div class="timeline-item" data-text="FATHER OF THE TURKS">
@@ -87,3 +89,7 @@
     </div>
 </div>
 <div class="demo-footer"><a href="http://www.turkishnews.com/Ataturk/life.htm" target="_blank">Source/Kaynak</a></div>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+      <script src="timeline.js"></script>
+  </body>
+</html>
