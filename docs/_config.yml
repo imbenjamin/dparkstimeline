@@ -1,0 +1,16 @@
+title: DParks Timeline
+tagline: History of Disney Parks
+author:
+  name : Benjamin Hill
+  github : imbenjamin
+
+markdown: kramdown
+sass:
+  sass_dir: _sass
+
+production_url: https://imbenjamin.github.io/dparkstimeline
+BASE_PATH: https://imbenjamin.github.io/dparkstimeline
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
